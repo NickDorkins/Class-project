@@ -75,18 +75,19 @@ header>nav>ul>li {
 
 /* Playmats Section */
 .section4 {
-background-color: yellow;
-width:100%;
+    background-color: yellow;
+    width:100%;
 }
 
 
 
 .section4 img {
-float: right;
-height: 300px;
-width: auto;
+    float: left;
+    height: 300px;
+    width: auto;
 }
 
 .section4 p {
-height:300px;
+    text-align: right;
+    height:300px;
 }
