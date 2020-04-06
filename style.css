@@ -1,0 +1,45 @@
+header>nav>ul>li {
+    display:inline-block;
+    float:right;
+    margin-top: 15px;
+    margin-right: 30px;
+    font-size: 20px;  
+}
+
+/* Cards Section */
+section1 img {
+    float: right;
+    position:fixed;
+    margin-top: 200px;    
+}
+
+section1 p {
+    margin-top: 300px;
+    font-style:
+
+}
+
+/* Tokens Section */
+
+
+
+
+
+
+
+
+/* Dice Section */
+section3 img {
+    float: right;
+    width: 300px;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
+/* Playmats Section */
