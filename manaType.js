@@ -1,3 +1,4 @@
+
 var response = prompt('What is your favorite mana type? Red, white, green, blue, black, or colorless?');
 var message;
 
