@@ -15,9 +15,7 @@ header>script> {
     background-color: red;
     width:100%;
 }
-
-
-
+ 
 .section1 img {
     float: right;
     height: 300px;
@@ -26,7 +24,7 @@ header>script> {
 
 .section1 p {
     height:300px;
-    font-size: 65px;
+    /* font-size: 40px; */
 }
 
 /* Tokens Section */
@@ -46,7 +44,7 @@ header>script> {
 .section2 p {
     text-align: right;
     height:300px;
-    font-size: 77px;
+    /* font-size: 40px; */
 }
 
 
@@ -57,7 +55,7 @@ header>script> {
 
 /* Dice Section */
 .section3{
-    background-color: red;
+    background-color: blue;
     width:100%;
 }
 
@@ -71,7 +69,7 @@ header>script> {
 
 .section3 p {
     height:300px;
-    font-size: 77px;
+    /* font-size: 40px; */
 }
 
 
@@ -97,5 +95,5 @@ header>script> {
 .section4 p {
     text-align: right;
     height:300px;
-    font-size: 77px;
+    /* font-size: 40px; */
 }

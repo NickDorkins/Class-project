@@ -1,6 +1,8 @@
 function askName() {
     var username = prompt('What is your name?')
 
+
+
     return document.write('<h3>' + 'Hello, ' + username + '</h3>');
 }
 
@@ -49,4 +51,14 @@ function manaType() {
     }
 
     return document.write('<h3>' + message + '</h3>');
+}
+
+function highestHit() {
+    var response = prompt ('What is the highest amput of damage you have delt during a match' )
+    var highest;
+
+    while (response = isNaN){
+        response = prompt ('Please enter a numerical value.')
+    }
+    return document.write('<h3>' + highest + '! That\'s AWESOME!' + '</h3>');
 }
