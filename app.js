@@ -30,35 +30,38 @@ function manaType() {
     var message;
 
     if (response === 'red') {
-        message = 'Welcome to the Mountain!'
+        message = 'Welcome to the Mountain!';
     }
     else if (response === 'white') {
-        message = 'Rolling Plains!'
+        message = 'Rolling Plains!';
     }
     else if (response === 'green') {
-        message = 'Trample throught the Forest!'
+        message = 'Trample throught the Forest!';
     }
     else if (response === 'blue') {
-        message = 'Infinite loops are not welcome here!'
+        message = 'Infinite loops are not welcome here!';
     }
     else if (response === 'black') {
-        message = 'Welcome to the dark side!'
+        message = 'Welcome to the dark side!';
     }
     else if (response === 'colorless') {
-        message = 'Enter the void!'
+        message = 'Enter the void!';
     } else {
-        message = 'Magic rocks!'
+        message = 'Magic rocks!';
     }
 
     return document.write('<h3>' + message + '</h3>');
 }
 
 function highestHit() {
-    var response = prompt ('What is the highest amput of damage you have delt during a match' )
-    var highest;
+    var response = prompt ('What is the highest amount of damage you have delt during a match?');
+    var icon = '';
 
-    while (response = isNaN){
-        response = prompt ('Please enter a numerical value.')
+    while (isNaN(response)){
+        response = prompt ('Please enter a numerical value.');
     }
-    return document.write('<h3>' + highest + '! That\'s AWESOME!' + '</h3>');
+    for (var i = 0; i < response; i++) {
+        icon = icon + '<p> <img src="images/boom.png"> </p>'
+    }
+    return document.write('<h3>' + response + '! That\'s AWESOME!' + '</h3>' + icon);
 }
